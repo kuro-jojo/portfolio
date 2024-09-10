@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.title {
+  /* font-family: "DM Sans"; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+}
+
+.links {
+  width: 333px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.links a {
+  text-decoration: none;
+
+  /* font-family: "DM Sans"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--dark-text-color);
+}
+
+.links a:active {
+  color: var(--dark-green-color);
+}
