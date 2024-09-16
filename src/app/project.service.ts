@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs';
+import { environment } from '../environments/environment';
 @Injectable({
     providedIn: 'root',
 })
 export class ProjectService {
-    private readonly projectJsonLocation = "../assets/data/projects.json"
+    private readonly projectJsonLocation = "assets/data/projects.json"
     // private readonly projectJsonLocation = "https://raw.githubusercontent.com/kuro-jojo/portfolio-angular/main/projects.json"
     constructor(
         private http: HttpClient
