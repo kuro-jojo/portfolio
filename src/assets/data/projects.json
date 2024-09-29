@@ -16,6 +16,18 @@
     },
     {
         "id": 1,
+        "name": "Chess Game",
+        "description": "A chess game that allows 2 players to play against each other.",
+        "image": "assets/chess.jpg",
+        "url": "https://github.com/kuro-jojo/chess",
+        "stack": [
+            "Javascript",
+            "Node.js",
+            "WebSockets"
+        ]
+    },
+    {
+        "id": 2,
         "name": "Kuroline : angular",
         "description": "A chat app that allows users to send messages to each other.",
         "image": "assets/kuroline.png",
@@ -27,7 +39,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Kuroline : spring boot",
         "description": "Backend for the chat app that allows users to send messages to each other.",
         "image": "assets/kuroline.png",
@@ -45,7 +57,7 @@
         "name": "Yema",
         "description": "Mobile real estate rental application.",
         "image": "assets/yema.gif",
-        "url":"https://github.com/kuro-jojo/yema",
+        "url":"https://github.com/kuro-jojo/yema-client",
         "stack":[
             "Android",
             "Java",
