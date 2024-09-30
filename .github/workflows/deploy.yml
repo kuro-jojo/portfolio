@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
         locale: [en, fr]
-
+    
     steps:
       - uses: actions/checkout@v3
 
@@ -25,17 +25,21 @@ jobs:
       - name: Build ${{ matrix.locale }} version
         run: npm run build -- --configuration=${{ matrix.locale }}
 
+      - name: Move build files to temporary directory
+        run: mv dist/portfolio/${{ matrix.locale }} /tmp/${{ matrix.locale }}
+
       - name: Checkout gh-pages branch
         uses: actions/checkout@v3
         with:
           ref: gh-pages
+          persist-credentials: false
+          fetch-depth: 0
 
-      - name: Copy build files to gh-pages/${{ matrix.locale }}
+      - name: Copy build files from temporary directory
         run: |
+          ls -la
           mkdir -p ${{ matrix.locale }}
-          ls -la .
-          ls 
-          cp -r dist/portfolio/${{ matrix.locale }}/* ${{ matrix.locale }}/
+          cp -r /tmp/${{ matrix.locale }}/* ${{ matrix.locale }}/
 
       - name: Commit and push changes
         run: |
