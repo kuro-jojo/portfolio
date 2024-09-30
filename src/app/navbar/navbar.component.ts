@@ -16,6 +16,6 @@ export class NavbarComponent {
         console.log('Path: ', window.location.pathname, window.location.href);
         this.currentLang = language;
         const newUrl = `/${language}`;
-        window.location.href = newUrl;
+        // window.location.href = newUrl;
     }
 }
