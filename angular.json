@@ -40,13 +40,13 @@
                     },
                     "configurations": {
                         "fr": {
-                            "localize": ["fr"],
+                            "localize": false,
                             "i18nMissingTranslation": "error",
                             "outputPath": "dist/portfolio/fr",
                             "baseHref": "/portfolio/"
                         },
                         "en": {
-                            "localize": false,
+                            "localize": ["en"],
                             "i18nMissingTranslation": "error",
                             "outputPath": "dist/portfolio/en",
                             "baseHref": "/portfolio/"
