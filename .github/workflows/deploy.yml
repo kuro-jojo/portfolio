@@ -9,13 +9,38 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Deploy to GitHub Pages
+
+      # Build and deploy the US version
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "14"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build US version
+        run: npm run build -- --configuration=en
+
+      - name: Deploy US version to GitHub Pages
         uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
         with:
-          github_access_token: ${{ secrets.GITHUB_TOKEN }} # see the Configuration section for how you can create secrets
-          base_href: /portfolio/fr # make sure this corresponds to https://<your_username>.github.io/<base_href>/
-          deploy_branch: gh-pages # The branch the action should deploy to.
-          angular_dist_build_folder: dist/portfolio/browser/fr # The folder where your project is supposed to be after running ng build by the action.
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+          base_href: /portfolio/us/
+          deploy_branch: gh-pages
+          angular_dist_build_folder: dist/portfolio/browser/us
+
+      # Build and deploy the FR version
+      - name: Build FR version
+        run: npm run build -- --configuration=fr
+
+      - name: Deploy FR version to GitHub Pages
+        uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
+        with:
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+          base_href: /portfolio/fr/
+          deploy_branch: gh-pages
+          angular_dist_build_folder: dist/portfolio/browser/fr
 
 permissions:
-  contents: write # Allow write permission to GITHUB_TOKEN to commit to deploy branch.
+  contents: write
