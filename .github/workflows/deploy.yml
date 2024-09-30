@@ -10,27 +10,38 @@ jobs:
     strategy:
       matrix:
         locale: [en, fr]
-
+    
     steps:
       - uses: actions/checkout@v3
 
-      # - name: Set up Node.js
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: "20.10.0"
-
-      # - name: Install dependencies
-      #   run: npm install
-
-      # - name: Build ${{ matrix.locale }} version
-      #   run: npm run build -- --configuration=${{ matrix.locale }}
-
-      - name: Deploy ${{ matrix.locale }} version to GitHub Pages
-        uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          github_access_token: ${{ secrets.GITHUB_TOKEN }}
-          angular_dist_build_folder: dist/portfolio/${{ matrix.locale }}/browser/${{ matrix.locale }}
-          build_configuration: ${{ matrix.locale }}
+          node-version: "20.10.0"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build ${{ matrix.locale }} version
+        run: npm run build -- --configuration=${{ matrix.locale }}
+
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+
+      - name: Copy build files to gh-pages/${{ matrix.locale }}
+        run: |
+          mkdir -p ${{ matrix.locale }}
+          cp -r dist/portfolio/${{ matrix.locale }}/* ${{ matrix.locale }}/
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Deploy ${{ matrix.locale }} version"
+          git push origin gh-pages
 
 permissions:
   contents: write
