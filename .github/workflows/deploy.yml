@@ -41,14 +41,14 @@ jobs:
         run: |
           rm -rf ./*
 
+      - name: Copy en build files from temporary directory
+        run: |
+          cp -r /tmp/en/* .
+
       - name: Copy fr build files from temporary directory
         run: |
           mkdir -p fr
           cp -r /tmp/fr/* fr/
-
-      - name: Copy en build files from temporary directory
-        run: |
-          cp -r /tmp/en/* .
 
       - name: Commit and push changes
         env:

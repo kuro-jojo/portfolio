@@ -21,7 +21,7 @@ export class NavbarComponent {
         // if(this.currentLang === ''){
         //     newUrl = window.location.pathname + language;
         // }
-        window.location.href = window.location.pathname.replace('/' + this.currentLang, language);
+        window.location.href = language;
         this.currentLang = language;
     }
 }
