@@ -28,7 +28,7 @@ jobs:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
           base_href: /portfolio/us/
           deploy_branch: gh-pages
-          angular_dist_build_folder: dist/portfolio/browser/us
+          angular_dist_build_folder: dist/portfolio/browser/en
 
       # Build and deploy the FR version
       - name: Build FR version
