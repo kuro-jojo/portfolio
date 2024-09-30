@@ -26,34 +26,34 @@ jobs:
         uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
-          base_href: /portfolio/en/
+          base_href: /portfolio/
           deploy_branch: gh-pages
           angular_dist_build_folder: dist/portfolio/browser/en
 
-  deploy-fr:
-    runs-on: ubuntu-latest
+  # deploy-fr:
+  #   runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v3
+  #   steps:
+  #     - uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "20.10.0"
+  #     - name: Set up Node.js
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         node-version: "20.10.0"
 
-      - name: Install dependencies
-        run: npm install
+  #     - name: Install dependencies
+  #       run: npm install
 
-      - name: Build FR version
-        run: npm run build -- --configuration=fr
+  #     - name: Build FR version
+  #       run: npm run build -- --configuration=fr
 
-      - name: Deploy FR version to GitHub Pages
-        uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
-        with:
-          github_access_token: ${{ secrets.GITHUB_TOKEN }}
-          base_href: /portfolio/fr/
-          deploy_branch: gh-pages
-          angular_dist_build_folder: dist/portfolio/browser/fr
+  #     - name: Deploy FR version to GitHub Pages
+  #       uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
+  #       with:
+  #         github_access_token: ${{ secrets.GITHUB_TOKEN }}
+  #         base_href: /portfolio/
+  #         deploy_branch: gh-pages
+  #         angular_dist_build_folder: dist/portfolio/browser/fr
 
 permissions:
   contents: write
