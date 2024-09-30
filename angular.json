@@ -43,13 +43,17 @@
                             "localize": [
                                 "fr"
                             ],
-                            "i18nMissingTranslation": "error"
+                            "i18nMissingTranslation": "error",
+                            "outputPath": "dist/portfolio/fr",
+                            "baseHref": "/portfolio/fr/"
                         },
                         "en": {
                             "localize": [
                                 "en"
                             ],
-                            "i18nMissingTranslation": "error"
+                            "i18nMissingTranslation": "error",
+                            "outputPath": "dist/portfolio/en",
+                            "baseHref": "/portfolio/en/"
                         },
                         "production": {
                             "budgets": [
@@ -111,14 +115,6 @@
                             "src/styles.css"
                         ],
                         "scripts": []
-                    }
-                },
-                "deploy": {
-                    "builder": "angular-cli-ghpages:deploy",
-                    "options": {
-                        "baseHref": "/portfolio/fr",
-                        "repo": "git@github.com:kuro-jojo/portfolio.git",
-                        "dir": "dist/portfolio/browser/fr"
                     }
                 }
             }
