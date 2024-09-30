@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
         locale: [en, fr]
-    
+
     steps:
       - uses: actions/checkout@v3
 
@@ -33,6 +33,8 @@ jobs:
       - name: Copy build files to gh-pages/${{ matrix.locale }}
         run: |
           mkdir -p ${{ matrix.locale }}
+          ls -la .
+          ls 
           cp -r dist/portfolio/${{ matrix.locale }}/* ${{ matrix.locale }}/
 
       - name: Commit and push changes
