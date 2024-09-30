@@ -9,9 +9,9 @@ import { Component } from '@angular/core';
     styleUrl: './navbar.component.css',
 })
 export class NavbarComponent {
-    currentLang: string = window.location.pathname.split('/')[1];
+    currentLang: string = window.location.pathname.split('/')[2];
     constructor() {
-        console.log('Current Lang: ', this.currentLang);
+        console.log('Current Lang: ', this.currentLang, window.location.pathname.split('/'));
     }
     switchLanguage(language: string, event: Event) {
         event.preventDefault();
