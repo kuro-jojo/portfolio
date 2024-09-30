@@ -26,7 +26,7 @@ jobs:
         run: npm run build -- --configuration=${{ matrix.locale }}
 
       - name: Move build files to temporary directory
-        run: mv dist/portfolio/${{ matrix.locale }} /tmp/${{ matrix.locale }}
+        run: mv dist/portfolio/${{ matrix.locale }}/browser/${{ matrix.locale }} /tmp/${{ matrix.locale }}
 
       - name: Checkout gh-pages branch
         uses: actions/checkout@v3
@@ -34,6 +34,10 @@ jobs:
           ref: gh-pages
           persist-credentials: false
           fetch-depth: 0
+
+      - name: Cleanup gh-pages branch
+        run: |
+          rm -rf ./*
 
       - name: Copy build files from temporary directory
         run: |
