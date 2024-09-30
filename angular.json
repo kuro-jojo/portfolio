@@ -116,7 +116,7 @@
                 "deploy": {
                     "builder": "angular-cli-ghpages:deploy",
                     "options": {
-                        "baseHref": "/portfolio/",
+                        "baseHref": "/portfolio/fr",
                         "repo": "git@github.com:kuro-jojo/portfolio.git",
                         "dir": "dist/portfolio/browser/fr"
                     }
