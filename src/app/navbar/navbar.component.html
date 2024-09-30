@@ -7,10 +7,10 @@
         <a href="#contact" routerLinkActive="active" i18n>Contact me</a>
     </div>
     <div class="lang">
-        <a href="#" (click)="switchLanguage($event, 'en')" [ngClass]="{active: currentLang === 'en'}">
+        <a href="#" (click)="switchLanguage($event)" [ngClass]="{active: currentLang !== 'fr'}">
             <img src="assets/us.svg" alt="">
         </a>
-        <a href="#" (click)="switchLanguage($event)" [ngClass]="{active: currentLang !== 'en'}">
+        <a href="#" (click)="switchLanguage($event, 'fr')" [ngClass]="{active: currentLang === 'fr'}">
             <img src="assets/fr.svg" alt="">
         </a>
     </div>

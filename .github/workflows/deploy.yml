@@ -22,13 +22,13 @@ jobs:
         run: npm run build -- --configuration=fr
 
       - name: Move fr build files to temporary directory
-        run: mv dist/portfolio/fr/browser /tmp/fr
+        run: mv dist/portfolio/fr/browser/fr /tmp/fr
 
       - name: Build en version
         run: npm run build -- --configuration=en
 
       - name: Move en build files to temporary directory
-        run: mv dist/portfolio/en/browser/en /tmp/en
+        run: mv dist/portfolio/en/browser /tmp/en
 
       - name: Checkout gh-pages branch
         uses: actions/checkout@v3
@@ -44,12 +44,11 @@ jobs:
       - name: Copy fr build files from temporary directory
         run: |
           mkdir -p fr
-          cp -r /tmp/fr/* .
+          cp -r /tmp/fr/* fr/
 
       - name: Copy en build files from temporary directory
         run: |
-          mkdir -p en
-          cp -r /tmp/en/* en/
+          cp -r /tmp/en/* .
 
       - name: Commit and push changes
         env:
