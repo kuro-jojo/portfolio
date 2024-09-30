@@ -13,10 +13,15 @@ export class NavbarComponent {
     constructor() {
         console.log('Current Lang: ', this.currentLang, window.location.pathname.split('/'));
     }
-    switchLanguage(language: string, event: Event) {
+    switchLanguage(event: Event, language: string = '') {
         event.preventDefault();
         console.log('Path: ', window.location.pathname, window.location.href);
-        window.location.href = window.location.pathname.replace(this.currentLang, language);
+        // let newUrl = window.location.pathname.replace('/' + this.currentLang, language);
+
+        // if(this.currentLang === ''){
+        //     newUrl = window.location.pathname + language;
+        // }
+        window.location.href = window.location.pathname.replace('/' + this.currentLang, language);
         this.currentLang = language;
     }
 }

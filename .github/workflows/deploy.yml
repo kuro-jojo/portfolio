@@ -48,8 +48,7 @@ jobs:
 
       - name: Copy en build files from temporary directory
         run: |
-          mkdir -p en
-          cp -r /tmp/en/* en/
+          cp -r /tmp/en/* .
 
       - name: Commit and push changes
         env:

@@ -1,17 +1,17 @@
 <nav>
 
-        <div class="title">Assamagan</div>
-        <div class="links">
-            <a href="#about" routerLinkActive="active" i18n>About me</a>
-            <a href="#projects" routerLinkActive="active" i18n>Projects</a>
-            <a href="#contact" routerLinkActive="active" i18n>Contact me</a>
-        </div>
-        <div class="lang">
-            <a href="#" (click)="switchLanguage('en', $event)" [ngClass]="{active: currentLang === 'en'}">
-                <img src="assets/us.svg" alt="">
-            </a>
-            <a href="#" (click)="switchLanguage('fr',$event)" [ngClass]="{active: currentLang === 'fr'}">
-                <img src="assets/fr.svg" alt="">
-            </a>
-        </div>
+    <div class="title">Assamagan</div>
+    <div class="links">
+        <a href="#about" routerLinkActive="active" i18n>About me</a>
+        <a href="#projects" routerLinkActive="active" i18n>Projects</a>
+        <a href="#contact" routerLinkActive="active" i18n>Contact me</a>
+    </div>
+    <div class="lang">
+        <a href="#" (click)="switchLanguage($event)" [ngClass]="{active: currentLang !== 'fr'}">
+            <img src="assets/us.svg" alt="">
+        </a>
+        <a href="#" (click)="switchLanguage($event, 'fr')" [ngClass]="{active: currentLang === 'fr'}">
+            <img src="assets/fr.svg" alt="">
+        </a>
+    </div>
 </nav>
