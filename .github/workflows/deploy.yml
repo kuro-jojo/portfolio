@@ -7,10 +7,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        locale: [en, fr]
-    
     steps:
       - uses: actions/checkout@v3
 
@@ -22,14 +18,24 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build ${{ matrix.locale }} version
-        run: npm run build -- --configuration=${{ matrix.locale }}
+      - name: Build fr version
+        run: npm run build -- --configuration=fr
 
       - name: Move fr build files to temporary directory
         run: mv dist/portfolio/fr/browser/fr /tmp/fr
 
+      - name: Build en version
+        run: npm run build -- --configuration=en
+
       - name: Move en build files to temporary directory
         run: mv dist/portfolio/en/browser/en /tmp/en
+
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+          persist-credentials: false
+          fetch-depth: 0
 
       - name: Cleanup gh-pages branch
         run: |
@@ -44,14 +50,6 @@ jobs:
         run: |
           mkdir -p en
           cp -r /tmp/en/* en/
-      - name: Stash changes
-        run: git stash --include-untracked
-
-      - name: Pull latest changes
-        run: git pull origin gh-pages --rebase
-
-      - name: Apply stashed changes
-        run: git stash pop
 
       - name: Commit and push changes
         env:
@@ -60,20 +58,8 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "Deploy ${{ matrix.locale }} version" || echo "No changes to commit"
+          git commit -m "Deploy fr and en versions" || echo "No changes to commit"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages
-
-      - name: Commit and push changes
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git pull origin gh-pages --rebase
-          git add .
-          git commit -m "Deploy ${{ matrix.locale }} version" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages
-
 
 permissions:
   contents: write
