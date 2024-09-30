@@ -114,7 +114,12 @@
                     }
                 },
                 "deploy": {
-                    "builder": "angular-cli-ghpages:deploy"
+                    "builder": "angular-cli-ghpages:deploy",
+                    "options": {
+                        "baseHref": "/portfolio/",
+                        "repo": "git@github.com:kuro-jojo/portfolio.git",
+                        "dir": "dist/portfolio/browser/fr"
+                    }
                 }
             }
         }
