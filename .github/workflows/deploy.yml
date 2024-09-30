@@ -14,22 +14,23 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "20.10.0"
+      # - name: Set up Node.js
+      #   uses: actions/setup-node@v3
+      #   with:
+      #     node-version: "20.10.0"
 
-      - name: Install dependencies
-        run: npm install
+      # - name: Install dependencies
+      #   run: npm install
 
-      - name: Build ${{ matrix.locale }} version
-        run: npm run build -- --configuration=${{ matrix.locale }}
+      # - name: Build ${{ matrix.locale }} version
+      #   run: npm run build -- --configuration=${{ matrix.locale }}
 
       - name: Deploy ${{ matrix.locale }} version to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist/portfolio/${{ matrix.locale }}
+          publish_dir: dist/portfolio/${{ matrix.locale }}/browser/${{ matrix.locale }}
+          build_configuration: portfolio:build:${{ matrix.locale }}
 
 permissions:
   contents: write
