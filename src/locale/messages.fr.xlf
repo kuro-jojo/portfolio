@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5605623494781049937" datatype="html">
+        <source>Hi 👋, I am <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Jonathan Assamagan</source>
+        <target>Bonjour 👋, je suis <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Jonathan Assamagan</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6901531604019957317" datatype="html">
+        <source>Software Engineer</source>
+        <target>Ingénieur logiciel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1726291034820514204" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img
+                        src=&quot;assets/eye.svg&quot; alt=&quot;&quot;&gt;"/> Preview CV </source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;assets/eye.svg&quot; alt=&quot;&quot;&gt;"/> Prévisualiser le CV </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4762141720519402890" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img
+                        src=&quot;assets/paperclip.svg&quot; alt=&quot;&quot;&gt;"/> Download CV</source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;assets/paperclip.svg&quot; alt=&quot;&quot;&gt;"/> Télécharger le CV</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8457887861200828944" datatype="html">
+        <source>My resume</source>
+        <target>Mon CV</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7819314041543176992" datatype="html">
+        <source>Close</source>
+        <target>Fermer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6018686961415145811" datatype="html">
+        <source>About Me</source>
+        <target>À propos de moi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2357921969604176835" datatype="html">
+        <source>I&apos;m a software engineer with a passion for lines of code and specialise in application development. Through the various web and mobile application projects I&apos;ve completed, my development languages have revolved around Angular, Java (Spring Boot), Python and Go. Autonomous and rigorous, I&apos;m quick to adapt to technological choices to meet project needs. As a team player, I particularly enjoy working with other developers.</source>
+        <target>Je suis un ingénieur logiciel passionné par les lignes de code et spécialisé dans le développement d'applications. À travers les différents projets d'applications web et mobiles que j'ai réalisés, mes langages de développement s'articulent autour d'Angular, Java (Spring Boot), Python et Go. Autonome et rigoureux, je m'adapte rapidement aux choix technologiques pour répondre aux besoins du projet. Doté d'un esprit d'équipe, j'apprécie particulièrement collaborer avec d'autres développeurs.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+        
+      </trans-unit>
+      <trans-unit id="2236877205125634440" datatype="html">
+        <source>Get in touch</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4867130943566222508" datatype="html">
+        <source>Made with <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;heart&quot;&gt;"/>❤<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> by Jonathan Assamagan. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Inspired by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.figma.com/&amp;#64;ifidelis&quot;&gt;"/>@Fidelis<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Réalisé avec <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;heart&quot;&gt;"/>❤<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; "/> par Jonathan Assamagan. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Inspiré par <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.figma.com/&amp;#64;ifidelis&quot;&gt;"/>@Fidelis<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">55,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3562199946446423606" datatype="html">
+        <source>About me</source>
+        <target>À propos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7091571651222742304" datatype="html">
+        <source>Projects</source>
+        <target>Projets</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1153721192129533394" datatype="html">
+        <source>Contact me</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3451120436772805293" datatype="html">
+        <source>Realizations</source>
+        <target>Réalisations</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1631475015501836376" datatype="html">
+        <source>My tech stack</source>
+        <target>Stack technique</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

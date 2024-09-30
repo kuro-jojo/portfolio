@@ -1,13 +1,13 @@
 <main>
     <section>
         <div class="presentation">
-            <div class="name">Hi 👋, I am <br>Jonathan Assamagan</div>
-            <small class="job-title">Software Engineer</small>
+            <div class="name" i18n>Hi 👋, I am <br>Jonathan Assamagan</div>
+            <small class="job-title" i18n>Software Engineer</small>
             <div class="buttons">
-                <a class="btn" (click)="preventDefault($event)" data-toggle="modal" data-target="#resume-view"><img
+                <a class="btn" (click)="preventDefault($event)" data-toggle="modal" data-target="#resume-view" i18n><img
                         src="assets/eye.svg" alt=""> Preview CV
                 </a>
-                <a class="btn cv" [href]="cv_file" download="software-cv-jonathan.pdf"><img
+                <a class="btn cv" [href]="cv_file" download="software-cv-jonathan.pdf" i18n><img
                         src="assets/paperclip.svg" alt="">
                     Download CV</a>
                 <div id="resume-view" class="modal fade" role="dialog">
@@ -17,13 +17,14 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                <span class="modal-title heading2">My resume</span>
+                                <span class="modal-title heading2" i18n>My resume</span>
                             </div>
                             <div class="modal-body">
                                 <embed [src]="cv_file | safe" frameborder="0" width="100%" height="600px">
 
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"
+                                        i18n>Close</button>
                                 </div>
                             </div>
 
@@ -38,17 +39,8 @@
     </section>
     <section id="about">
         <div class="about-me">
-            <h1>About Me</h1>
-            <p>
-                I am a software engineer with a passion for building software applications that solve real-world
-                problems.
-                I have experience in building web applications using modern technologies such as Angular and React.
-                I am also proficient in Java, Python, and go.
-            </p>
-            <p>
-                I am a quick learner and I am always looking for new challenges to improve my skills.
-                I am a team player and I enjoy working with other developers to build great software.
-            </p>
+            <h1 i18n>About Me</h1>
+            <p i18n>I'm a software engineer with a passion for lines of code and specialise in application development. Through the various web and mobile application projects I've completed, my development languages have revolved around Angular, Java (Spring Boot), Python and Go. Autonomous and rigorous, I'm quick to adapt to technological choices to meet project needs. As a team player, I particularly enjoy working with other developers.</p>
         </div>
     </section>
 </main>

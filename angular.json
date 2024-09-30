@@ -4,6 +4,14 @@
     "newProjectRoot": "projects",
     "projects": {
         "portfolio": {
+            "i18n": {
+                "sourceLocale": "en",
+                "locales": {
+                    "fr": {
+                        "translation": "src/locale/messages.fr.xlf"
+                    }
+                }
+            },
             "projectType": "application",
             "schematics": {},
             "root": "",
@@ -13,6 +21,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
+                        "localize": true,
                         "outputPath": "dist/portfolio",
                         "index": "src/index.html",
                         "browser": "src/main.ts",
@@ -30,6 +39,18 @@
                         "scripts": []
                     },
                     "configurations": {
+                        "fr": {
+                            "localize": [
+                                "fr"
+                            ],
+                            "i18nMissingTranslation": "error"
+                        },
+                        "en": {
+                            "localize": [
+                                "en"
+                            ],
+                            "i18nMissingTranslation": "error"
+                        },
                         "production": {
                             "budgets": [
                                 {
@@ -56,6 +77,9 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "configurations": {
+                        "fr": {
+                            "buildTarget": "portfolio:build:development,fr"
+                        },
                         "production": {
                             "buildTarget": "portfolio:build:production"
                         },
@@ -96,6 +120,6 @@
         }
     },
     "cli": {
-      "analytics": false
+        "analytics": false
     }
 }
