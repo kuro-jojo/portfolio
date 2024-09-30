@@ -28,7 +28,7 @@ jobs:
         run: npm run build -- --configuration=en
 
       - name: Move en build files to temporary directory
-        run: mv dist/portfolio/en/browser/en /tmp/en
+        run: mv dist/portfolio/en/browser /tmp/en
 
       - name: Checkout gh-pages branch
         uses: actions/checkout@v3
