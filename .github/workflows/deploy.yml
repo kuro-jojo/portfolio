@@ -25,20 +25,25 @@ jobs:
       - name: Build ${{ matrix.locale }} version
         run: npm run build -- --configuration=${{ matrix.locale }}
 
-      - name: Move build files to temporary directory
-        run: mv dist/portfolio/${{ matrix.locale }}/browser/${{ matrix.locale }} /tmp/${{ matrix.locale }}
+      - name: Move fr build files to temporary directory
+        run: mv dist/portfolio/fr/browser/fr /tmp/fr
 
-      - name: Checkout gh-pages branch
-        uses: actions/checkout@v3
-        with:
-          ref: gh-pages
-          persist-credentials: false
-          fetch-depth: 0
+      - name: Move en build files to temporary directory
+        run: mv dist/portfolio/en/browser/en /tmp/en
 
-      - name: Copy build files from temporary directory
+      - name: Cleanup gh-pages branch
         run: |
-          mkdir -p ${{ matrix.locale }}
-          cp -r /tmp/${{ matrix.locale }}/* ${{ matrix.locale }}/
+          rm -rf ./*
+
+      - name: Copy fr build files from temporary directory
+        run: |
+          mkdir -p fr
+          cp -r /tmp/fr/* fr/
+
+      - name: Copy en build files from temporary directory
+        run: |
+          mkdir -p en
+          cp -r /tmp/en/* en/
       - name: Stash changes
         run: git stash --include-untracked
 
