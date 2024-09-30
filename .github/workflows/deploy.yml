@@ -45,13 +45,21 @@ jobs:
           mkdir -p ${{ matrix.locale }}
           cp -r /tmp/${{ matrix.locale }}/* ${{ matrix.locale }}/
 
+      - name: Stash changes
+        run: git stash --include-untracked
+
+      - name: Pull latest changes
+        run: git pull origin gh-pages --rebase
+
+      - name: Apply stashed changes
+        run: git stash pop
+
       - name: Commit and push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git pull origin gh-pages --rebase
           git add .
           git commit -m "Deploy ${{ matrix.locale }} version" || echo "No changes to commit"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages
