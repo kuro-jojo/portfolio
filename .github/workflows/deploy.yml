@@ -30,7 +30,7 @@ jobs:
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
           angular_dist_build_folder: dist/portfolio/${{ matrix.locale }}/browser/${{ matrix.locale }}
-          build_configuration: "portfolio:build:${{ matrix.locale }}"
+          build_configuration: ${{ matrix.locale }}
 
 permissions:
   contents: write
