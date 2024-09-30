@@ -11,17 +11,11 @@ import { Component } from '@angular/core';
 export class NavbarComponent {
     currentLang: string = window.location.pathname.split('/')[2];
     constructor() {
-        console.log('Current Lang: ', this.currentLang, window.location.pathname.split('/'));
+        console.log('Current Lang: ', this.currentLang, window.location.pathname);
     }
     switchLanguage(event: Event, language: string = '') {
         event.preventDefault();
-        console.log('Path: ', window.location.pathname, window.location.href);
-        // let newUrl = window.location.pathname.replace('/' + this.currentLang, language);
-
-        // if(this.currentLang === ''){
-        //     newUrl = window.location.pathname + language;
-        // }
-        window.location.href = language;
-        this.currentLang = language;
+        console.log('Path v2: ', window.location.pathname, window.location.href);
+        this.currentLang = window.location.pathname.replace(this.currentLang, language);
     }
 }
