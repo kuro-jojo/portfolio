@@ -9,13 +9,12 @@ import { Component } from '@angular/core';
     styleUrl: './navbar.component.css',
 })
 export class NavbarComponent {
-    currentLang: string = window.location.pathname.split('/')[2];
-
+    currentLang: string = window.location.pathname.split('/')[2] || '';
+    path: string = window.location.pathname.split('/').slice(0, 2).join('/');
 
     switchLanguage(event: Event, language: string = '') {
         event.preventDefault();
-        console.log('Path: ', window.location.pathname, window.location.href);
-        window.location.href = window.location.pathname.replace(this.currentLang, language);
+        window.location.href = this.path + '/' + language;
         this.currentLang = language;
     }
 }
