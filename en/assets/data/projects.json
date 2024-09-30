@@ -1,0 +1,67 @@
+[
+    {
+        "id": 0,
+        "name": "KDI : Kubernetes Deployment Interface",
+        "description": "A web interface that allows users to deploy applications on a Kubernetes cluster on the cloud.",
+        "image": "assets/kdi.png",
+        "url": "https://github.com/kuro-jojo/kdi-final",
+        "stack": [
+            "Angular",
+            "Kubernetes",
+            "Golang",
+            "Gks",
+            "Eks",
+            "Openshift"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Chess Game",
+        "description": "A chess game that allows 2 players to play against each other.",
+        "image": "assets/chess.jpg",
+        "url": "https://github.com/kuro-jojo/chess",
+        "stack": [
+            "Javascript",
+            "Node.js",
+            "WebSockets"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Kuroline : angular",
+        "description": "A chat app that allows users to send messages to each other.",
+        "image": "assets/kuroline.png",
+        "url": "https://github.com/kuro-jojo/kuroline-angular",
+        "stack": [
+            "Angular",
+            "WebSockets",
+            "Firebase"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Kuroline : spring boot",
+        "description": "Backend for the chat app that allows users to send messages to each other.",
+        "image": "assets/kuroline.png",
+        "url": "https://github.com/kuro-jojo/kuroline-springboot",
+        "stack": [
+            "Spring Boot",
+            "Java",
+            "WebSockets",
+            "Api Gateway",
+            "Firebase"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Yema",
+        "description": "Mobile real estate rental application.",
+        "image": "assets/yema.gif",
+        "url":"https://github.com/kuro-jojo/yema-client",
+        "stack":[
+            "Android",
+            "Java",
+            "Firebase"
+        ]
+    }
+]
