@@ -12,7 +12,7 @@
             "Gks",
             "Eks",
             "Openshift",
-            "Github Actions",
+            "Github Actions"
         ]
     },
     {
@@ -26,18 +26,18 @@
             "Keptn",
             "Kubernetes",
             "Github Actions",
-            "Splunk",
+            "Splunk"
         ]
     },
     {
         "id": 2,
         "name": "File converter GUI",
-        "description": "A graphical user interface (GUI) application that allows users to convert files from one format to another",
+        "description": "A graphical user interface (GUI) application that allows users to convert files from one format to another.",
         "image": "assets/converter.png",
         "url": "https://github.com/kuro-jojo/file-converter-gui",
         "stack": [
             "python",
-            "tkinter",
+            "tkinter"
         ]
     },
     {
@@ -83,8 +83,8 @@
         "name": "Yema",
         "description": "Mobile real estate rental application.",
         "image": "assets/yema.gif",
-        "url":"https://github.com/kuro-jojo/yema-client",
-        "stack":[
+        "url": "https://github.com/kuro-jojo/yema-client",
+        "stack": [
             "Android",
             "Java",
             "Firebase"
