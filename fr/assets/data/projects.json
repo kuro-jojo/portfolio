@@ -8,14 +8,40 @@
         "stack": [
             "Angular",
             "Kubernetes",
-            "Golang",
+            "Go",
             "Gks",
             "Eks",
-            "Openshift"
+            "Openshift",
+            "Github Actions",
         ]
     },
     {
         "id": 1,
+        "name": "Keptn: splunk sli provider",
+        "description": "Keptn-service to integrate Splunk in Keptn as the source for the Service Level Indicators and as a monitoring tool.",
+        "image": "assets/splunk.jpg",
+        "url": "https://github.com/kuro-jojo/splunk-sli-provider",
+        "stack": [
+            "Go",
+            "Keptn",
+            "Kubernetes",
+            "Github Actions",
+            "Splunk",
+        ]
+    },
+    {
+        "id": 2,
+        "name": "File converter GUI",
+        "description": "A graphical user interface (GUI) application that allows users to convert files from one format to another",
+        "image": "assets/converter.png",
+        "url": "https://github.com/kuro-jojo/file-converter-gui",
+        "stack": [
+            "python",
+            "tkinter",
+        ]
+    },
+    {
+        "id": 3,
         "name": "Chess Game",
         "description": "A chess game that allows 2 players to play against each other.",
         "image": "assets/chess.jpg",
@@ -27,7 +53,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 4,
         "name": "Kuroline : angular",
         "description": "A chat app that allows users to send messages to each other.",
         "image": "assets/kuroline.png",
@@ -39,7 +65,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 5,
         "name": "Kuroline : spring boot",
         "description": "Backend for the chat app that allows users to send messages to each other.",
         "image": "assets/kuroline.png",
@@ -53,7 +79,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 6,
         "name": "Yema",
         "description": "Mobile real estate rental application.",
         "image": "assets/yema.gif",
