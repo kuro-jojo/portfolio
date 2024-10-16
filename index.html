@@ -1,7 +1,16 @@
-<!doctype html>
+<script src="polyfills.js" type="module"></script><script src="main.js" type="module"></script><!doctype html>
 <html lang="en" dir="ltr" data-critters-container>
 
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WL6VMVX2KJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-WL6VMVX2KJ');
+  </script>
     <meta charset="utf-8">
     <title>Jonathan's Portfolio</title>
     <base href="/portfolio/">
@@ -17,9 +26,4 @@
 
 <body>
     <app-root></app-root>
-  <!-- 100% privacy-first analytics -->
-<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt referrerpolicy="no-referrer-when-downgrade"></noscript>
-<script src="polyfills.js" type="module"></script><script src="main.js" type="module"></script></body>
-
-</html>
+</body></html>
