@@ -1,0 +1,104 @@
+[
+    {
+        "id": 0,
+        "name": "KDI : Kubernetes Deployment Interface",
+        "description": "A web interface that allows users to deploy applications on a Kubernetes cluster on the cloud.",
+        "image": "assets/kdi.png",
+        "url": "https://github.com/kuro-jojo/kdi-final",
+        "stack": [
+            "Angular",
+            "Kubernetes",
+            "Go",
+            "Gks",
+            "Eks",
+            "Openshift",
+            "Github Actions"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Keptn: splunk sli provider",
+        "description": "Keptn-service to integrate Splunk in Keptn as the source for the Service Level Indicators and as a monitoring tool.",
+        "image": "assets/splunk.jpg",
+        "url": "https://github.com/kuro-jojo/splunk-sli-provider",
+        "stack": [
+            "Go",
+            "Keptn",
+            "Kubernetes",
+            "Github Actions",
+            "Splunk"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "File converter GUI",
+        "description": "A graphical user interface (GUI) application that allows users to convert files from one format to another.",
+        "image": "assets/converter.png",
+        "url": "https://github.com/kuro-jojo/file-converter-gui",
+        "stack": [
+            "python",
+            "tkinter"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Expense Tracker API",
+        "description": "Backend API for the Expense Tracker application written in Java Spring Boot..",
+        "image": "assets/expense.png",
+        "url": "https://github.com/kuro-jojo/expense-tracker-api",
+        "stack": [
+            "Java",
+            "Spring Boot",
+            "MySQL"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Kuroline : angular",
+        "description": "A chat app that allows users to send messages to each other.",
+        "image": "assets/kuroline.png",
+        "url": "https://github.com/kuro-jojo/kuroline-angular",
+        "stack": [
+            "Angular",
+            "WebSockets",
+            "Firebase"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Kuroline : spring boot",
+        "description": "Backend for the chat app that allows users to send messages to each other.",
+        "image": "assets/kuroline.png",
+        "url": "https://github.com/kuro-jojo/kuroline-springboot",
+        "stack": [
+            "Spring Boot",
+            "Java",
+            "WebSockets",
+            "Api Gateway",
+            "Firebase"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Transaction Categorization API",
+        "description": "Categorize financial transactions using a fine-tuned BERT model. It provides endpoints to categorize single or multiple transactions.",
+        "image": "assets/bert.png",
+        "url": "https://github.com/kuro-jojo/bert-transaction-categorizer-api",
+        "stack": [
+            "Python",
+            "Bert",
+            "FastAPI"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Lichess Analysis Extension",
+        "description": "An extension to jump from Lichess Analysis board to WintrCat's Game Report",
+        "image": "assets/lichess.png",
+        "url": "https://github.com/kuro-jojo/lichess-analysis-extension",
+        "stack": [
+            "Javascript",
+            "Chrome Extension"
+        ]
+    }
+]
