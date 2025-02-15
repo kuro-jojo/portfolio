@@ -1,10 +1,19 @@
 <nav>
-
-    <div class="title">Assamagan</div>
+    <div class="logo"> <a href="#"> <img src="assets/jonathan.jpg" alt="Logo"></a></div>
     <div class="links">
-        <a href="#about" routerLinkActive="active" i18n>About me</a>
+        <a href="#" routerLinkActive="active" i18n>Home</a>
+        <a href="#about" routerLinkActive="active" i18n>About</a>
+        <a href="#stacks" routerLinkActive="active" i18n>Tech Stack</a>
         <a href="#projects" routerLinkActive="active" i18n>Projects</a>
-        <a href="#contact" routerLinkActive="active" i18n>Contact me</a>
+        <a href="#contact" routerLinkActive="active" i18n>Contact</a>
+    </div>
+    <div class="socials">
+        <a href="https://www.linkedin.com/in/jonathan-koumou" target="_blank">
+            <img src="assets/linkedin.svg" alt="">
+        </a>
+        <a href="https://www.github.com/kuro-jojo" target="_blank">
+            <img src="assets/github.svg" alt="">
+        </a>
     </div>
     <div class="lang">
         <a href="#" (click)="switchLanguage($event)" [ngClass]="{active: currentLang !== 'fr'}">

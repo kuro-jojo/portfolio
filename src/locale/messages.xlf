@@ -53,11 +53,11 @@
           <context context-type="linenumber">42,43</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1853303633297861564" datatype="html">
-        <source>With a passion for systems design and automation, I&apos;ve gained experience in creating CI pipelines, containerisation with Docker and orchestration via Kubernetes (K8s). My projects focus on back-end development with Go and Java, while I use Python for automating personal tasks. Autonomous, rigorous and adaptable, I integrate easily into teams and technical environments, learning quickly to meet project needs. </source>
+      <trans-unit id="8550043632296061154" datatype="html">
+        <source>Software engineer with a passion for lines of code, specializing in application development. Through internships (Amadeus &amp; Sonatel) and various Web and mobile application projects, my development languages revolve around Java, Python and Go. I&apos;m a self-starter, rigorous, I quickly adapt to technological choices in order to meet the needs of the project needs. A team player, I enjoy collaborating with other developers. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">43,44</context>
+          <context context-type="linenumber">43,47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2236877205125634440" datatype="html">
@@ -67,46 +67,92 @@
           <context context-type="linenumber">2,3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4867130943566222508" datatype="html">
-        <source>Made with <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;heart&quot;&gt;"/>❤<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> by Jonathan Assamagan. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Inspired by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.figma.com/&amp;#64;ifidelis&quot;&gt;"/>@Fidelis<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact/contact.component.html</context>
-          <context context-type="linenumber">55,57</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3562199946446423606" datatype="html">
-        <source>About me</source>
+      <trans-unit id="1726363342938046830" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
           <context context-type="linenumber">5,6</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7091571651222742304" datatype="html">
-        <source>Projects</source>
+      <trans-unit id="3836120654588644262" datatype="html">
+        <source>Tech Stack</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">67,68</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
           <context context-type="linenumber">6,7</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1153721192129533394" datatype="html">
-        <source>Contact me</source>
+      <trans-unit id="7091571651222742304" datatype="html">
+        <source>Projects</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
           <context context-type="linenumber">7,8</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="3451120436772805293" datatype="html">
-        <source>Realizations</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects/projects.component.html</context>
-          <context context-type="linenumber">2,3</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7885369347670219232" datatype="html">
+        <source>Made with <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;heart&quot;&gt;"/>❤<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> by Jonathan Assamagan. Inspired by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+            href=&quot;https://www.figma.com/&amp;#64;pavanmg007&quot; target=&quot;_blank&quot;&gt;"/>@Pavan MG<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+          <context context-type="linenumber">71,74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1631475015501836376" datatype="html">
         <source>My tech stack</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects/projects.component.html</context>
-          <context context-type="linenumber">30,31</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5274442323460047745" datatype="html">
+        <source> Technologies I&apos;ve been working with recently</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8498252127909318891" datatype="html">
+        <source> Things I&apos;ve built so far</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+          <context context-type="linenumber">50,52</context>
         </context-group>
       </trans-unit>
     </body>

@@ -40,7 +40,9 @@
                     },
                     "configurations": {
                         "fr": {
-                            "localize": ["fr"],
+                            "localize": [
+                                "fr"
+                            ],
                             "i18nMissingTranslation": "error",
                             "outputPath": "dist/portfolio/fr",
                             "baseHref": "/portfolio/"
@@ -111,14 +113,6 @@
                             "src/styles.css"
                         ],
                         "scripts": []
-                    }
-                },
-                "deploy": {
-                    "builder": "angular-cli-ghpages:deploy",
-                    "options": {
-                        "repo": "git@github.com:kuro-jojo/portfolio.git",
-                        "dir": "dist/portfolio/fr/browser/fr",
-                        "buildTarget": "portfolio:build:fr"
                     }
                 }
             }

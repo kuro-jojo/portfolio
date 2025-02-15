@@ -1,20 +1,22 @@
 nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
+  margin: auto;
+  margin-top: 4rem;
+  width: 75%;
 }
 
-.title {
-  /* font-family: "DM Sans"; */
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 47px;
+.logo img {
+  width: 5rem;
+  height: auto;
+  border: 1px solid rgba(30, 121, 9, 1);
+  border-radius: 50%;
 }
 
 .links {
-  width: 333px;
+  margin-left: 20vw;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -22,12 +24,12 @@ nav {
 .links a {
   text-decoration: none;
 
-  /* font-family: "DM Sans"; */
+  font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
-  color: var(--dark-text-color);
+  color: var(--light-text-color);
 }
 
 .links a:active {
@@ -37,6 +39,20 @@ nav {
 .active {
   display: none;
 }
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.socials img {
+  width: 30px;
+  height: 30px;
+  margin-left: 2rem;
+}
+
 .lang {
   margin: 0 40px;
 }

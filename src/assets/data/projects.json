@@ -30,7 +30,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 7,
         "name": "File converter GUI",
         "description": "A graphical user interface (GUI) application that allows users to convert files from one format to another.",
         "image": "assets/converter.png",
@@ -41,15 +41,15 @@
         ]
     },
     {
-        "id": 3,
-        "name": "Chess Game",
-        "description": "A chess game that allows 2 players to play against each other.",
-        "image": "assets/chess.jpg",
-        "url": "https://github.com/kuro-jojo/chess",
+        "id": 2,
+        "name": "Expense Tracker API",
+        "description": "Backend API for the Expense Tracker application written in Java Spring Boot..",
+        "image": "assets/expense.png",
+        "url": "https://github.com/kuro-jojo/expense-tracker-api",
         "stack": [
-            "Javascript",
-            "Node.js",
-            "WebSockets"
+            "Java",
+            "Spring Boot",
+            "MySQL"
         ]
     },
     {
@@ -79,15 +79,26 @@
         ]
     },
     {
-        "id": 6,
-        "name": "Yema",
-        "description": "Mobile real estate rental application.",
-        "image": "assets/yema.gif",
-        "url": "https://github.com/kuro-jojo/yema-client",
+        "id": 3,
+        "name": "Transaction Categorization API",
+        "description": "Categorize financial transactions using a fine-tuned BERT model. It provides endpoints to categorize single or multiple transactions.",
+        "image": "assets/bert.png",
+        "url": "https://github.com/kuro-jojo/bert-transaction-categorizer-api",
         "stack": [
-            "Android",
-            "Java",
-            "Firebase"
+            "Python",
+            "Bert",
+            "FastAPI"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Lichess Analysis Extension",
+        "description": "An extension to jump from Lichess Analysis board to WintrCat's Game Report",
+        "image": "assets/lichess.png",
+        "url": "https://github.com/kuro-jojo/lichess-analysis-extension",
+        "stack": [
+            "Javascript",
+            "Chrome Extension"
         ]
     }
 ]

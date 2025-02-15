@@ -1,48 +1,10 @@
-<section id="projects">
-    <h1 i18n>Realizations</h1>
-    <div class="projects">
-
-        @for (project of projects; track $index) {
-        <div class="project">
-
-            <a href="{{ project.url}}">
-
-                <img src="{{ project.image }}" alt="">
-                <div>
-                    <span class="repo-name">
-                        <b> {{ project.name}} </b>
-                    </span>
-                    <div class="languages">
-                        @for (lang of project.stack; track $index) {
-
-                        <span class="lang"> {{ lang }}</span>
-                        }
-                    </div>
-                    <p class="text-normal">{{ project.description }} </p>
-                </div>
-            </a>
-        </div>
-        }
-    </div>
-</section>
-
-<section>
+<section id="stacks">
     <h1 i18n>My tech stack</h1>
+    <p i18n> Technologies I've been working with recently</p>
     <div class="stack-container">
         <div class="stack">
-            <div class="">
-                <h2>Frontend</h2>
-
-                <div class="list">
-                    <img src="assets/html.svg" alt="" class="logo">
-                    <img src="assets/css.svg" alt="" class="logo">
-                    <img src="assets/angular.svg" alt="" class="logo">
-                    <img src="assets/react.svg" alt="" class="logo">
-                </div>
-            </div>
-            <div class="">
+            <div>
                 <h2>Backend</h2>
-
                 <div class="list">
                     <img src="assets/java.svg" alt="" class="logo">
                     <img src="assets/golang.svg" alt="" class="logo">
@@ -50,7 +12,17 @@
                     <img src="assets/spring.svg" alt="" class="logo">
                 </div>
             </div>
-            <div class="">
+            <div>
+                <h2>Frontend</h2>
+
+                <div class="list">
+                    <img src="assets/html.svg" alt="" class="logo">
+                    <img src="assets/css.svg" alt="" class="logo">
+                    <img src="assets/angular.svg" alt="" class="logo">
+                    <!-- <img src="assets/react.svg" alt="" class="logo"> -->
+                </div>
+            </div>
+            <div>
                 <h2>Databases</h2>
 
                 <div class="list">
@@ -60,7 +32,7 @@
                     <!-- <img src="assets/spring.svg" alt="" class="logo"> -->
                 </div>
             </div>
-            <div class="">
+            <div>
                 <h2>Cloud & DevOps</h2>
 
                 <div class="list">
@@ -71,5 +43,32 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+<section id="projects">
+    <h1 i18n>Projects</h1>
+    <p i18n> Things I've built so far</p>
+
+    <div class="projects">
+        @for (project of projects; track $index) {
+        <div class="p-card">
+            <div class="card-img">
+                <img src="{{ project.image}}" alt="{{ project.name}} image">
+            </div>
+            <div class="card-content">
+                <h2 class="card-header"> {{ project.name }}</h2>
+                <p>{{ project.description }}</p>
+                <div class="languages">
+                    @for (lang of project.stack; track $index) {
+                    <span class="lang"> {{ lang }}</span>
+                    }
+                </div>
+            </div>
+            <div class="card-code">
+                <img src="assets/github.svg" alt="">
+                <a href="{{ project.url }}" target="_blank">View Code</a>
+            </div>
+        </div>
+        }
     </div>
 </section>
