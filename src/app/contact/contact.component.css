@@ -41,6 +41,10 @@ hr {
   gap: 1.5rem;
 }
 
+.detail p {
+  font-size: 2rem;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -58,7 +62,7 @@ footer {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 23px;
   color: var(--light-text-color);
 }
@@ -78,4 +82,49 @@ footer {
 
 .heart {
   color: #f00;
+}
+
+@media screen and (max-width: 1100px) {
+  .links {
+    display: none;
+  }
+
+  .thanks {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .details {
+    gap: 2rem;
+  }
+
+  .detail img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .detail p {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .details {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .detail img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .detail p {
+    font-size: 2rem;
+  }
 }

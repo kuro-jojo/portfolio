@@ -1,160 +1,197 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template">
-    <body>
-      <trans-unit id="5605623494781049937" datatype="html">
-        <source>Hi 👋, I am <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Jonathan Assamagan</source>
+<xliff version="1.2"
+    xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="ng2.template">
+        <body>
+            <trans-unit id="5605623494781049937" datatype="html">
+                <source>Hi 👋, I am <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
+Jonathan Assamagan</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+                    <context context-type="linenumber">4,5</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="6901531604019957317" datatype="html">
+                <source>Software Engineer</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+                    <context context-type="linenumber">5,6</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="1726291034820514204" datatype="html">
+                <source>
+                    <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;assets/eye.svg&quot; alt=&quot;&quot;&gt;"/>
+ Preview CV </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+                    <context context-type="linenumber">8,9</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4762141720519402890" datatype="html">
+                <source>
+                    <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;assets/paperclip.svg&quot; alt=&quot;&quot;&gt;"/>
+ Download CV</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+                    <context context-type="linenumber">11,12</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8457887861200828944" datatype="html">
+                <source>My resume</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+                    <context context-type="linenumber">20,21</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7819314041543176992" datatype="html">
+                <source>Close</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+                    <context context-type="linenumber">27,28</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="4150665892901187344" datatype="html">
+                <source>More about Me</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+                    <context context-type="linenumber">43,44</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7353299965545818164" datatype="html">
+                <source>I&apos;m a software engineer with a passion for lines of code, specializing in application development. Through internships (Amadeus &amp; Sonatel) and various Web and mobile application projects, my development languages revolve around Java, Python and Go. I&apos;m a self-starter, rigorous, I quickly adapt to technological choices in order to meet the needs of the project needs. A team player, I enjoy collaborating with other developers. </source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+                    <context context-type="linenumber">44,48</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2236877205125634440" datatype="html">
+                <source>Get in touch</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+                    <context context-type="linenumber">2,3</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="2821179408673282599" datatype="html">
+                <source>Home</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+                    <context context-type="linenumber">29</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="1726363342938046830" datatype="html">
+                <source>About</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+                    <context context-type="linenumber">29,30</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="3836120654588644262" datatype="html">
+                <source>Tech Stack</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+                    <context context-type="linenumber">30,31</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7091571651222742304" datatype="html">
+                <source>Projects</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+                    <context context-type="linenumber">31,32</context>
+                </context-group>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+                    <context context-type="linenumber">47,48</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7922989125096435449" datatype="html">
+                <source>Contact</source>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+                    <context context-type="linenumber">32,33</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="7885369347670219232" datatype="html">
+                <source>Made with <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;heart&quot;&gt;"/>
+❤                <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+ by Jonathan Assamagan. Inspired by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.figma.com/&amp;#64;pavanmg007&quot; target=&quot;_blank&quot;&gt;"/>
+@Pavan MG<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+        </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">4,5</context>
+            <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+            <context context-type="linenumber">34,37</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="6901531604019957317" datatype="html">
-        <source>Software Engineer</source>
+    </trans-unit>
+    <trans-unit id="5301370764259314991" datatype="html">
+        <source>
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-house-fill&quot;&gt;"/>
+            <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+Home</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">5,6</context>
+            <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+            <context context-type="linenumber">9,10</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="1726291034820514204" datatype="html">
-        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img
-                        src=&quot;assets/eye.svg&quot; alt=&quot;&quot;&gt;"/> Preview CV </source>
+    </trans-unit>
+    <trans-unit id="3594834486306301552" datatype="html">
+        <source>
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-person-badge&quot;&gt;"/>
+            <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+About me</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">8,9</context>
+            <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+            <context context-type="linenumber">10,11</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="4762141720519402890" datatype="html">
-        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img
-                        src=&quot;assets/paperclip.svg&quot; alt=&quot;&quot;&gt;"/> Download CV</source>
+    </trans-unit>
+    <trans-unit id="8718517343154125262" datatype="html">
+        <source>
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-stack-overflow&quot;&gt;"/>
+            <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+Tech Stack</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">11,12</context>
+            <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+            <context context-type="linenumber">11,12</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="8457887861200828944" datatype="html">
-        <source>My resume</source>
+    </trans-unit>
+    <trans-unit id="3563649122241824793" datatype="html">
+        <source>
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-activity&quot;&gt;"/>
+            <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+Projects</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">20,21</context>
+            <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+            <context context-type="linenumber">12,13</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="7819314041543176992" datatype="html">
-        <source>Close</source>
+    </trans-unit>
+    <trans-unit id="6602802258527395953" datatype="html">
+        <source>
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-envelope-open-heart&quot;&gt;"/>
+            <x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+Contact me</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">27,28</context>
+            <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+            <context context-type="linenumber">13,14</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="6018686961415145811" datatype="html">
-        <source>About Me</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">42,43</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8550043632296061154" datatype="html">
-        <source>Software engineer with a passion for lines of code, specializing in application development. Through internships (Amadeus &amp; Sonatel) and various Web and mobile application projects, my development languages revolve around Java, Python and Go. I&apos;m a self-starter, rigorous, I quickly adapt to technological choices in order to meet the needs of the project needs. A team player, I enjoy collaborating with other developers. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">43,47</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2236877205125634440" datatype="html">
-        <source>Get in touch</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
-          <context context-type="linenumber">2,3</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2821179408673282599" datatype="html">
-        <source>Home</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
-          <context context-type="linenumber">66</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1726363342938046830" datatype="html">
-        <source>About</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
-          <context context-type="linenumber">66,67</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">5,6</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3836120654588644262" datatype="html">
-        <source>Tech Stack</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
-          <context context-type="linenumber">67,68</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">6,7</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7091571651222742304" datatype="html">
-        <source>Projects</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
-          <context context-type="linenumber">68,69</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">7,8</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
-          <context context-type="linenumber">49,50</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7922989125096435449" datatype="html">
-        <source>Contact</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
-          <context context-type="linenumber">69,70</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
-          <context context-type="linenumber">8,9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7885369347670219232" datatype="html">
-        <source>Made with <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;heart&quot;&gt;"/>❤<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> by Jonathan Assamagan. Inspired by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
-            href=&quot;https://www.figma.com/&amp;#64;pavanmg007&quot; target=&quot;_blank&quot;&gt;"/>@Pavan MG<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/contact/contact.component.html</context>
-          <context context-type="linenumber">71,74</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1631475015501836376" datatype="html">
+    </trans-unit>
+    <trans-unit id="1631475015501836376" datatype="html">
         <source>My tech stack</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
-          <context context-type="linenumber">2,3</context>
+            <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+            <context context-type="linenumber">2,3</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="5274442323460047745" datatype="html">
+    </trans-unit>
+    <trans-unit id="5274442323460047745" datatype="html">
         <source> Technologies I&apos;ve been working with recently</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
-          <context context-type="linenumber">3,4</context>
+            <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+            <context context-type="linenumber">3,4</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="8498252127909318891" datatype="html">
+    </trans-unit>
+    <trans-unit id="8498252127909318891" datatype="html">
         <source> Things I&apos;ve built so far</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/projects/projects.component.html</context>
-          <context context-type="linenumber">50,52</context>
+            <context context-type="sourcefile">src/app/projects/projects.component.html</context>
+            <context context-type="linenumber">48,50</context>
         </context-group>
-      </trans-unit>
-    </body>
-  </file>
+    </trans-unit>
+</body>
+</file>
 </xliff>

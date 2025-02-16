@@ -16,7 +16,6 @@ export class ProjectsComponent {
     constructor(
         private projectService: ProjectService
     ) {
-
     }
 
     ngOnInit() {
@@ -28,7 +27,5 @@ export class ProjectsComponent {
                 console.error(error);
             }
         })
-
     }
-
 }

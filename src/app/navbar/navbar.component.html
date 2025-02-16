@@ -1,26 +1,31 @@
 <nav>
+    <div class="burger">
+        <input type="checkbox" id="menuCheckbox" (change)="showNav($event)" />
+
+        <span></span><span></span><span></span>
+    </div>
     <div class="logo"> <a href="#"> <img src="assets/jonathan.jpg" alt="Logo"></a></div>
-    <div class="links">
-        <a href="#" routerLinkActive="active" i18n>Home</a>
-        <a href="#about" routerLinkActive="active" i18n>About</a>
-        <a href="#stacks" routerLinkActive="active" i18n>Tech Stack</a>
-        <a href="#projects" routerLinkActive="active" i18n>Projects</a>
-        <a href="#contact" routerLinkActive="active" i18n>Contact</a>
-    </div>
-    <div class="socials">
-        <a href="https://www.linkedin.com/in/jonathan-koumou" target="_blank">
-            <img src="assets/linkedin.svg" alt="">
-        </a>
-        <a href="https://www.github.com/kuro-jojo" target="_blank">
-            <img src="assets/github.svg" alt="">
-        </a>
-    </div>
-    <div class="lang">
-        <a href="#" (click)="switchLanguage($event)" [ngClass]="{active: currentLang !== 'fr'}">
-            <img src="assets/us.svg" alt="">
-        </a>
-        <a href="#" (click)="switchLanguage($event, 'fr')" [ngClass]="{active: currentLang === 'fr'}">
-            <img src="assets/fr.svg" alt="">
-        </a>
+    <div id="links" class="links">
+        <a href="#" routerLinkActive="active" i18n><i class="bi bi-house-fill"></i>Home</a>
+        <a href="#about" routerLinkActive="active" i18n><i class="bi bi-person-badge"></i>About me</a>
+        <a href="#stacks" routerLinkActive="active" i18n><i class="bi bi-stack-overflow"></i>Tech Stack</a>
+        <a href="#projects" routerLinkActive="active" i18n><i class="bi bi-activity"></i>Projects</a>
+        <a href="#contact" routerLinkActive="active" i18n><i class="bi bi-envelope-open-heart"></i>Contact me</a>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/jonathan-koumou" target="_blank">
+                <img src="assets/linkedin.svg" alt="">
+            </a>
+            <a href="https://www.github.com/kuro-jojo" target="_blank">
+                <img src="assets/github.svg" alt="">
+            </a>
+        </div>
+        <div class="lang">
+            <a href="#" (click)="switchLanguage($event)" [ngClass]="{active: currentLang !== 'fr'}">
+                <img src="assets/us.svg" alt="">
+            </a>
+            <a href="#" (click)="switchLanguage($event, 'fr')" [ngClass]="{active: currentLang === 'fr'}">
+                <img src="assets/fr.svg" alt="">
+            </a>
+        </div>
     </div>
 </nav>
