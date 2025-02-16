@@ -13,8 +13,8 @@
   bottom: 5%;
   right: 10%;
   transform: translateY(-50%);
-  width: 3rem;
-  height: 3rem;
+  width: auto;
+  height: auto;
   cursor: pointer;
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
