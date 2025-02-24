@@ -1,8 +1,8 @@
 [
     {
         "id": 0,
-        "name": "KDI : Kubernetes Deployment Interface",
-        "description": "A web interface that allows users to deploy applications on a Kubernetes cluster on the cloud.",
+        "name": "KDI",
+        "description": "Kubernetes Deployment Interface : A web interface that allows users to deploy applications on a Kubernetes cluster on the cloud.",
         "image": "assets/kdi.png",
         "url": "https://github.com/kuro-jojo/kdi-final",
         "stack": [
@@ -42,8 +42,20 @@
     },
     {
         "id": 2,
+        "name": "Expense Tracker",
+        "description": "Mobile app for the Expense Tracker application.",
+        "image": "assets/expense-ionic.jpg",
+        "url": "https://github.com/kuro-jojo/expense-tracker-ionic",
+        "stack": [
+            "Angular",
+            "Ionic",
+            "Supabase"
+        ]
+    },
+    {
+        "id": 3,
         "name": "Expense Tracker API",
-        "description": "Backend API for the Expense Tracker application written in Java Spring Boot..",
+        "description": "Backend API for the Expense Tracker application written in Java Spring Boot.",
         "image": "assets/expense.png",
         "url": "https://github.com/kuro-jojo/expense-tracker-api",
         "stack": [
@@ -53,8 +65,8 @@
         ]
     },
     {
-        "id": 4,
-        "name": "Kuroline : angular",
+        "id": 5,
+        "name": "Kuroline",
         "description": "A chat app that allows users to send messages to each other.",
         "image": "assets/kuroline.png",
         "url": "https://github.com/kuro-jojo/kuroline-angular",
@@ -65,8 +77,8 @@
         ]
     },
     {
-        "id": 5,
-        "name": "Kuroline : spring boot",
+        "id": 6,
+        "name": "Kuroline API",
         "description": "Backend for the chat app that allows users to send messages to each other.",
         "image": "assets/kuroline.png",
         "url": "https://github.com/kuro-jojo/kuroline-springboot",
@@ -79,7 +91,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Transaction Categorization API",
         "description": "Categorize financial transactions using a fine-tuned BERT model. It provides endpoints to categorize single or multiple transactions.",
         "image": "assets/bert.png",
