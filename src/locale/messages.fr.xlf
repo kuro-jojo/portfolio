@@ -53,7 +53,7 @@ Jonathan Assamagan</target>
                     <context context-type="linenumber">20,21</context>
                 </context-group>
             </trans-unit>
-            <trans-unit id="7819314041543176992" datatype="html">
+            <trans-unit id="5547981558491672240" datatype="html">
                 <source>Close</source>
                 <target>Fermer</target>
                 <context-group purpose="location">
@@ -69,7 +69,7 @@ Jonathan Assamagan</target>
                     <context context-type="linenumber">43,44</context>
                 </context-group>
             </trans-unit>
-            <trans-unit id="7353299965545818164" datatype="html">
+            <trans-unit id="4220611279814070197" datatype="html">
                 <source>I&apos;m a software engineer with a passion for lines of code, specializing in application development. Through internships (Amadeus &amp; Sonatel) and various Web and mobile application projects, my development languages revolve around Java, Python and Go. I&apos;m a self-starter, rigorous, I quickly adapt to technological choices in order to meet the needs of the project needs. A team player, I enjoy collaborating with other developers. </source>
                 <target>Je suis un ingénieur logiciel passionné par les lignes de code, spécialisé dans le développement d'applications. Au travers de stages (Amadeus &amp; Sonatel) et de divers projets d'applications Web et mobiles, mes langages de développement tournent autour de Java, Python et Go. Autonome, rigoureux, je m'adapte rapidement aux choix technologiques afin de répondre aux besoins du projet. Joueur d'équipe, j'aime collaborer avec d'autres développeurs.
                 </target>
