@@ -48,3 +48,6 @@ p {
     font-size: 2.7rem;
   }
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

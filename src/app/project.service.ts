@@ -30,6 +30,7 @@ export interface Project {
     image: string
     url: string
     stack: string[]
+    demo?: string
 }
 
 function isValidProject(project: Project): boolean {

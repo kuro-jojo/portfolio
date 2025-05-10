@@ -51,11 +51,23 @@
           <context context-type="linenumber">71,72</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4220611279814070197" datatype="html">
-        <source> I&apos;m a software engineer with a passion for lines of code, specializing in application development. Through internships (Amadeus &amp; Sonatel) and various Web and mobile application projects, my development languages revolve around Java, Python and Go. I&apos;m a self-starter, rigorous, I quickly adapt to technological choices in order to meet the needs of the project needs. A team player, I enjoy collaborating with other developers. </source>
+      <trans-unit id="2683068864023649224" datatype="html">
+        <source> Hey there 👋! <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>I&apos;m Jonathan, a software engineer who loves turning ideas into code. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>I&apos;ve built everything from web apps <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon
+          aria-hidden=&quot;false&quot;
+          aria-label=&quot;Web app&quot;
+          fontIcon=&quot;language&quot;
+          color=&quot;primary&quot;
+        &gt;"/><x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon
+        &gt;"/> to mobile solutions <x id="START_TAG_MAT_ICON_1" ctype="x-mat_icon_1" equiv-text="&lt;mat-icon
+          aria-hidden=&quot;false&quot;
+          aria-label=&quot;Mobile app&quot;
+          fontIcon=&quot;smartphone&quot;
+          color=&quot;primary&quot;
+        &gt;"/><x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon
+        &gt;"/>, and I&apos;m comfortable with Java, Python, Go, and <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#stacks&quot;&gt;"/>more<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> . <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>I&apos;m a self-starter who thrives on solving problems and creating solutions that make people&apos;s lives easier. I believe in the power of teamwork and love collaborating with fellow developers to create amazing things. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">73,78</context>
+          <context context-type="linenumber">73,92</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2236877205125634440" datatype="html">
@@ -154,15 +166,15 @@
           <context context-type="linenumber">2,3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5274442323460047745" datatype="html">
-        <source> Technologies I&apos;ve been working with recently</source>
+      <trans-unit id="5143982464255533022" datatype="html">
+        <source>Technologies I&apos;ve been working with recently</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects/projects.component.html</context>
           <context context-type="linenumber">3,4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8498252127909318891" datatype="html">
-        <source> Things I&apos;ve built so far</source>
+      <trans-unit id="8175365056703466251" datatype="html">
+        <source>Things I&apos;ve built so far</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects/projects.component.html</context>
           <context context-type="linenumber">48,50</context>

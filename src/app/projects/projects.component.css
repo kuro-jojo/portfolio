@@ -139,6 +139,16 @@ h1 + p {
   text-decoration: underline;
 }
 
+.paginator {
+  background: var(--dark-background-color);
+  color: var(--dark-text-color);
+  font-size: 2rem;
+  margin-top: 5rem;
+  border-radius: 50px;
+  padding: 6px;
+  width: max-content;
+}
+
 @media screen and (max-width: 900px) {
   h1 + p {
     font-size: 2.5rem;
@@ -149,11 +159,19 @@ h1 + p {
   h1 + p {
     font-size: 2rem;
   }
+  .paginator {
+    font-size: 1.4rem;
+    padding: 4px;
+  }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 531px) {
   h1 + p {
     font-size: 1.5rem;
+  }
+  .paginator {
+    font-size: 1rem;
+    padding: 0;
   }
 }
 
