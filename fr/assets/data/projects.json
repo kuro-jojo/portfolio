@@ -1,6 +1,20 @@
 [
     {
         "id": 0,
+        "name": "TextRefine: ScoreEngine",
+        "description": "A text analysis engine that evaluates writing quality across multiple dimensions and provides scores and feedback.",
+        "image": "assets/textrefine.jpg",
+        "url": "https://github.com/kuro-jojo/textrefine-scoreengine",
+        "stack": [
+            "Python",
+            "FastAPI",
+            "LanguageTool",
+            "Spacy",
+            "WordFreq"
+        ]
+    },
+    {
+        "id": 1,
         "name": "KDI",
         "description": "Kubernetes Deployment Interface : A web interface that allows users to deploy applications on a Kubernetes cluster on the cloud.",
         "image": "assets/kdi.png",
@@ -16,7 +30,43 @@
         ]
     },
     {
-        "id": 1,
+        "id": 2,
+        "name": "Lichess Analysis Extension",
+        "description": "An extension to jump from Lichess Analysis board to WintrCat's Game Report",
+        "image": "assets/wintrchess-lichess.png",
+        "url": "https://github.com/kuro-jojo/lichess-analysis-extension",
+        "stack": [
+            "Javascript",
+            "Chrome Extension"
+        ],
+        "demo": "https://chromewebstore.google.com/detail/lichess-to-wintrchess-ana/mpefnplikmkihkmdfphonihcmbdkignm"
+    },
+    {
+        "id": 3,
+        "name": "Expense Tracker",
+        "description": "Mobile app for the Expense Tracker application.",
+        "image": "assets/expense-ionic.jpg",
+        "url": "https://github.com/kuro-jojo/expense-tracker-ionic",
+        "stack": [
+            "Angular",
+            "Ionic",
+            "Supabase"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Expense Tracker API",
+        "description": "Backend API for the Expense Tracker application written in Java Spring Boot.",
+        "image": "assets/expense.png",
+        "url": "https://github.com/kuro-jojo/expense-tracker-api",
+        "stack": [
+            "Java",
+            "Spring Boot",
+            "MySQL"
+        ]
+    },
+    {
+        "id": 5,
         "name": "Keptn: splunk sli provider",
         "description": "Keptn-service to integrate Splunk in Keptn as the source for the Service Level Indicators and as a monitoring tool.",
         "image": "assets/splunk.jpg",
@@ -30,42 +80,7 @@
         ]
     },
     {
-        "id": 7,
-        "name": "File converter GUI",
-        "description": "A graphical user interface (GUI) application that allows users to convert files from one format to another.",
-        "image": "assets/converter.png",
-        "url": "https://github.com/kuro-jojo/file-converter-gui",
-        "stack": [
-            "python",
-            "tkinter"
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Expense Tracker",
-        "description": "Mobile app for the Expense Tracker application.",
-        "image": "assets/expense-ionic.jpg",
-        "url": "https://github.com/kuro-jojo/expense-tracker-ionic",
-        "stack": [
-            "Angular",
-            "Ionic",
-            "Supabase"
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Expense Tracker API",
-        "description": "Backend API for the Expense Tracker application written in Java Spring Boot.",
-        "image": "assets/expense.png",
-        "url": "https://github.com/kuro-jojo/expense-tracker-api",
-        "stack": [
-            "Java",
-            "Spring Boot",
-            "MySQL"
-        ]
-    },
-    {
-        "id": 5,
+        "id": 6,
         "name": "Kuroline",
         "description": "A chat app that allows users to send messages to each other.",
         "image": "assets/kuroline.png",
@@ -77,7 +92,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Kuroline API",
         "description": "Backend for the chat app that allows users to send messages to each other.",
         "image": "assets/kuroline.png",
@@ -91,7 +106,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 8,
         "name": "Transaction Categorization API",
         "description": "Categorize financial transactions using a fine-tuned BERT model. It provides endpoints to categorize single or multiple transactions.",
         "image": "assets/bert.png",
@@ -103,14 +118,14 @@
         ]
     },
     {
-        "id": 7,
-        "name": "Lichess Analysis Extension",
-        "description": "An extension to jump from Lichess Analysis board to WintrCat's Game Report",
-        "image": "assets/lichess.png",
-        "url": "https://github.com/kuro-jojo/lichess-analysis-extension",
+        "id": 9,
+        "name": "File converter GUI",
+        "description": "A graphical user interface (GUI) application that allows users to convert files from one format to another.",
+        "image": "assets/converter.png",
+        "url": "https://github.com/kuro-jojo/file-converter-gui",
         "stack": [
-            "Javascript",
-            "Chrome Extension"
+            "python",
+            "tkinter"
         ]
     }
 ]
