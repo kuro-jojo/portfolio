@@ -12,6 +12,13 @@ import { MatIconModule } from '@angular/material/icon';
 export class AboutMeComponent {
     cv_file: string = 'assets/data/cv.pdf';
 
+    ngOnInit(){
+        const currentLang = window.location.pathname.split('/')[2];
+        if (currentLang === 'fr') {
+            this.cv_file = 'assets/data/cv-fr.pdf';
+        }
+    }
+
     preventDefault(event: Event) {
         event.preventDefault();
     }

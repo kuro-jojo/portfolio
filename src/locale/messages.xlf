@@ -2,72 +2,69 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="5605623494781049937" datatype="html">
-        <source>Hi 👋, I am <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>Jonathan Assamagan</source>
+      <trans-unit id="2926355944909499717" datatype="html">
+        <source>Hi 👋, Jonathan here</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
           <context context-type="linenumber">4,5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6901531604019957317" datatype="html">
-        <source>Software Engineer</source>
+      <trans-unit id="1233724562868050856" datatype="html">
+        <source>Looking for a DevOps position</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">5,6</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8638960351741811654" datatype="html">
+        <source>Based in France, available from January 2026</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+          <context context-type="linenumber">8,9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1726291034820514204" datatype="html">
         <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;assets/eye.svg&quot; alt=&quot;&quot; /&gt;"/> Preview CV </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">13,14</context>
+          <context context-type="linenumber">17,18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4762141720519402890" datatype="html">
         <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;assets/paperclip.svg&quot; alt=&quot;&quot; /&gt;"/> Download CV</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">20,21</context>
+          <context context-type="linenumber">24,25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8457887861200828944" datatype="html">
         <source>My resume</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">30,31</context>
+          <context context-type="linenumber">34,35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5547981558491672240" datatype="html">
         <source> Close </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4150665892901187344" datatype="html">
         <source>More about Me</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">71,72</context>
+          <context context-type="linenumber">75,76</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2683068864023649224" datatype="html">
-        <source> Hey there 👋! <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>I&apos;m Jonathan, a software engineer who loves turning ideas into code. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>I&apos;ve built everything from web apps <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon
-          aria-hidden=&quot;false&quot;
-          aria-label=&quot;Web app&quot;
-          fontIcon=&quot;language&quot;
-          color=&quot;primary&quot;
-        &gt;"/><x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon
-        &gt;"/> to mobile solutions <x id="START_TAG_MAT_ICON_1" ctype="x-mat_icon_1" equiv-text="&lt;mat-icon
-          aria-hidden=&quot;false&quot;
-          aria-label=&quot;Mobile app&quot;
-          fontIcon=&quot;smartphone&quot;
-          color=&quot;primary&quot;
-        &gt;"/><x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon
-        &gt;"/>, and I&apos;m comfortable with Java, Python, Go, and <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#stacks&quot;&gt;"/>more<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> . <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>I&apos;m a self-starter who thrives on solving problems and creating solutions that make people&apos;s lives easier. I believe in the power of teamwork and love collaborating with fellow developers to create amazing things. </source>
+      <trans-unit id="3037467502501629551" datatype="html">
+        <source> So... Nice to meet you 👋 first; and let me introduce myself briefly. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> I start having interest in DevOps, cloud and automation since 2023 - where I had my first intership around Kubernetes in a DevOps team. I&apos;ve been learning and working on cloud and automation since then, and I&apos;m still learning and improving. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;about-looking&quot;
+          &gt;"/>I&apos;m currently looking for a DevOps position, and I&apos;m available from January 2026.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span
+        &gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-          <context context-type="linenumber">73,92</context>
+          <context context-type="linenumber">77,91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2236877205125634440" datatype="html">
@@ -106,7 +103,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects/projects.component.html</context>
-          <context context-type="linenumber">47,48</context>
+          <context context-type="linenumber">53,54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
@@ -177,7 +174,7 @@
         <source>Things I&apos;ve built so far</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/projects/projects.component.html</context>
-          <context context-type="linenumber">48,50</context>
+          <context context-type="linenumber">54,56</context>
         </context-group>
       </trans-unit>
     </body>

@@ -3,22 +3,28 @@
     xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file source-language="en" datatype="plaintext" original="ng2.template">
         <body>
-            <trans-unit id="5605623494781049937" datatype="html">
-                <source>Hi 👋, I am <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
-Jonathan Assamagan</source>
-                <target>Bonjour 👋, je suis <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>
-Jonathan Assamagan</target>
+            <trans-unit id="2926355944909499717" datatype="html">
+                <source>Hi 👋, Jonathan here</source>
+                <target>Hi 👋, C'est Jonathan</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
                     <context context-type="linenumber">4,5</context>
                 </context-group>
             </trans-unit>
-            <trans-unit id="6901531604019957317" datatype="html">
-                <source>Software Engineer</source>
-                <target>Ingénieur logiciel</target>
+            <trans-unit id="1233724562868050856" datatype="html">
+                <source>Looking for a DevOps position</source>
+                <target>DevOps en devenir</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-                    <context context-type="linenumber">5,6</context>
+                    <context context-type="linenumber">6,7</context>
+                </context-group>
+            </trans-unit>
+            <trans-unit id="8638960351741811654" datatype="html">
+                <source>Based in France, available from January 2026</source>
+                <target>Mobile dans toute la France, disponible à partir de janvier 2026</target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
+                    <context context-type="linenumber">8,9</context>
                 </context-group>
             </trans-unit>
             <trans-unit id="1726291034820514204" datatype="html">
@@ -27,10 +33,10 @@ Jonathan Assamagan</target>
  Preview CV </source>
                 <target>
                     <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;assets/eye.svg&quot; alt=&quot;&quot;&gt;"/>
- Prévisualiser le CV </target>
+ Voir mon CV </target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-                    <context context-type="linenumber">8,9</context>
+                    <context context-type="linenumber">17,18</context>
                 </context-group>
             </trans-unit>
             <trans-unit id="4762141720519402890" datatype="html">
@@ -42,15 +48,15 @@ Jonathan Assamagan</target>
  Télécharger le CV</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-                    <context context-type="linenumber">11,12</context>
+                    <context context-type="linenumber">24,25</context>
                 </context-group>
             </trans-unit>
             <trans-unit id="8457887861200828944" datatype="html">
                 <source>My resume</source>
-                <target>Mon CV</target>
+                <target>quelle belle journée!</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-                    <context context-type="linenumber">20,21</context>
+                    <context context-type="linenumber">34,35</context>
                 </context-group>
             </trans-unit>
             <trans-unit id="5547981558491672240" datatype="html">
@@ -58,7 +64,7 @@ Jonathan Assamagan</target>
                 <target>Fermer</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-                    <context context-type="linenumber">27,28</context>
+                    <context context-type="linenumber">51</context>
                 </context-group>
             </trans-unit>
             <trans-unit id="4150665892901187344" datatype="html">
@@ -66,39 +72,20 @@ Jonathan Assamagan</target>
                 <target>En savoir plus</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-                    <context context-type="linenumber">43,44</context>
+                    <context context-type="linenumber">75,76</context>
                 </context-group>
             </trans-unit>
-            <trans-unit id="2683068864023649224" datatype="html">
-                <source> Hey there 👋! <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>I&apos;m Jonathan, a software engineer who loves turning ideas into code. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>I&apos;ve built everything from web apps <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon
-          aria-hidden=&quot;false&quot;
-          aria-label=&quot;Web app&quot;
-          fontIcon=&quot;language&quot;
-          color=&quot;primary&quot;
-        &gt;"/><x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon
-        &gt;"/> to mobile solutions <x id="START_TAG_MAT_ICON_1" ctype="x-mat_icon_1" equiv-text="&lt;mat-icon
-          aria-hidden=&quot;false&quot;
-          aria-label=&quot;Mobile app&quot;
-          fontIcon=&quot;smartphone&quot;
-          color=&quot;primary&quot;
-        &gt;"/><x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon
-        &gt;"/>, and I&apos;m comfortable with Java, Python, Go, and <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#stacks&quot;&gt;"/>more<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> . <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>I&apos;m a self-starter who thrives on solving problems and creating solutions that make people&apos;s lives easier. I believe in the power of teamwork and love collaborating with fellow developers to create amazing things. </source>
-                <target>Salut 👋! <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>Je suis Jonathan, un ingénieur logiciel qui aime transformer les idées en code. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>J'ai construit tout, des applications Web <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon
-          aria-hidden=&quot;false&quot;
-          aria-label=&quot;Web app&quot;
-          fontIcon=&quot;language&quot;
-          color=&quot;primary&quot;
-        &gt;"/><x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon
-        &gt;"/> aux solutions mobiles <x id="START_TAG_MAT_ICON_1" ctype="x-mat_icon_1" equiv-text="&lt;mat-icon
-          aria-hidden=&quot;false&quot;
-          aria-label=&quot;Mobile app&quot;
-          fontIcon=&quot;smartphone&quot;
-          color=&quot;primary&quot;
-        &gt;"/><x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon
-        &gt;"/>, et je suis à l'aise avec Java, Python, Go, et <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#stacks&quot;&gt;"/>plus<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> . <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/>Je suis un autodidacte qui excelle à résoudre des problèmes et à créer des solutions qui facilitent la vie des gens. Je crois au pouvoir du travail d'équipe et j'aime collaborer avec d'autres développeurs pour créer des choses extraordinaires. </target>
+            <trans-unit id="3037467502501629551" datatype="html">
+                <source> So... Nice to meet you 👋 first; and let me introduce myself briefly. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> I start having interest in DevOps, cloud and automation since 2023 - where I had my first intership around Kubernetes in a DevOps team. I&apos;ve been learning and working on cloud and automation since then, and I&apos;m still learning and improving. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;about-looking&quot;
+                &gt;"/>I&apos;m currently looking for a DevOps position, and I&apos;m available from January 2026.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span
+                &gt;"/></source>
+                <target> Ravi de te rencontrer 👋. Permet moi de me présenter brievement. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> J'ai commencé à avoir un intérêt pour DevOps, le cloud et l'automatisation depuis 2023 - où j'ai eu mon premier stage autour de Kubernetes dans une équipe DevOps. J'ai appris et travaillé sur le cloud et l'automatisation depuis, et je suis toujours en train d'apprendre et de m'améliorer.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;about-looking&quot;
+                &gt;"/> Je suis actuellement à la recheche d'un CDI en tant que Développeur Fullstack/DevOps. Je suis disponible à partir de Janvier 2026.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span
+                &gt;"/>
+                </target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-                    <context context-type="linenumber">44,48</context>
+                    <context context-type="linenumber">77,91</context>
                 </context-group>
             </trans-unit>
             <trans-unit id="2236877205125634440" datatype="html">
@@ -156,11 +143,12 @@ Jonathan Assamagan</target>
                 </context-group>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/projects/projects.component.html</context>
-                    <context context-type="linenumber">49,50</context>
+                    <context context-type="linenumber">53,54</context>
                 </context-group>
             </trans-unit>
             <trans-unit id="7922989125096435449" datatype="html">
                 <source>Contact</source>
+                <target>Contact</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/contact/contact.component.html</context>
                     <context context-type="linenumber">32,33</context>
@@ -175,17 +163,17 @@ Jonathan Assamagan</target>
 ❤                <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
  by Jonathan Assamagan. Inspired by <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.figma.com/&amp;#64;pavanmg007&quot; target=&quot;_blank&quot;&gt;"/>
  @Pavan MG<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-        </source>
-        <target>Réalisé avec <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;heart&quot;&gt;"/>
- ❤        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
- par Jonathan Assamagan. Inspiré par <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.figma.com/&amp;#64;pavanmg007&quot; target=&quot;_blank&quot;&gt;"/>
- @Pavan MG<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-</target>
-<context-group purpose="location">
-    <context context-type="sourcefile">src/app/contact/contact.component.html</context>
-    <context context-type="linenumber">34,37</context>
-</context-group>
-</trans-unit>
+                </source>
+                <target>Réalisé avec <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;heart&quot;&gt;"/>
+        ❤        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+        par Jonathan Assamagan. Inspiré par <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.figma.com/&amp;#64;pavanmg007&quot; target=&quot;_blank&quot;&gt;"/>
+        @Pavan MG<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+                </target>
+                <context-group purpose="location">
+                    <context context-type="sourcefile">src/app/contact/contact.component.html</context>
+                    <context context-type="linenumber">34,37</context>
+                </context-group>
+            </trans-unit>
 <trans-unit id="5301370764259314991" datatype="html">
 <source>
     <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-house-fill&quot;&gt;"/>
@@ -269,7 +257,7 @@ Me contacter</target>
 <target>Mes récentes réalisations</target>
 <context-group purpose="location">
     <context context-type="sourcefile">src/app/projects/projects.component.html</context>
-    <context context-type="linenumber">48,52</context>
+    <context context-type="linenumber">54,56</context>
 </context-group>
 </trans-unit>
 </body>
