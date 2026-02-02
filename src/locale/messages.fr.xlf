@@ -19,9 +19,9 @@
                     <context context-type="linenumber">6,7</context>
                 </context-group>
             </trans-unit>
-            <trans-unit id="8638960351741811654" datatype="html">
-                <source>Based in France, available from January 2026</source>
-                <target>Mobile dans toute la France, disponible à partir de janvier 2026</target>
+            <trans-unit id="5892277835112465978" datatype="html">
+                <source>Based in France, available now.</source>
+                <target>Mobile dans toute la France, disponible immédiatement.</target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
                     <context context-type="linenumber">8,9</context>
@@ -75,17 +75,17 @@
                     <context context-type="linenumber">75,76</context>
                 </context-group>
             </trans-unit>
-            <trans-unit id="3037467502501629551" datatype="html">
-                <source> So... Nice to meet you 👋 first; and let me introduce myself briefly. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> I start having interest in DevOps, cloud and automation since 2023 - where I had my first intership around Kubernetes in a DevOps team. I&apos;ve been learning and working on cloud and automation since then, and I&apos;m still learning and improving. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;about-looking&quot;
-                &gt;"/>I&apos;m currently looking for a DevOps position, and I&apos;m available from January 2026.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span
+            <trans-unit id="117421178557288409" datatype="html">
+                <source> So... Nice to meet you 👋 first; and let me introduce myself briefly. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> I start having interest in DevOps, cloud and automation since 2023 - where I had my first internship around Kubernetes in a DevOps team. I&apos;ve been learning and working on cloud and automation since then, and I&apos;m still learning and improving. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;about-looking&quot;
+                &gt;"/>I&apos;m currently looking for a DevOps position, and I&apos;m available now.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span
                 &gt;"/></source>
                 <target> Ravi de te rencontrer 👋. Permet moi de me présenter brievement. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> J'ai commencé à avoir un intérêt pour DevOps, le cloud et l'automatisation depuis 2023 - où j'ai eu mon premier stage autour de Kubernetes dans une équipe DevOps. J'ai appris et travaillé sur le cloud et l'automatisation depuis, et je suis toujours en train d'apprendre et de m'améliorer.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;about-looking&quot;
-                &gt;"/> Je suis actuellement à la recheche d'un CDI en tant que Développeur Fullstack/DevOps. Je suis disponible à partir de Janvier 2026.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span
+                &gt;"/> Je suis actuellement à la recheche d'un CDI en tant que Développeur Fullstack/DevOps. Je suis disponible immédiatement.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span
                 &gt;"/>
                 </target>
                 <context-group purpose="location">
                     <context context-type="sourcefile">src/app/about-me/about-me.component.html</context>
-                    <context context-type="linenumber">77,91</context>
+                    <context context-type="linenumber">77,90</context>
                 </context-group>
             </trans-unit>
             <trans-unit id="2236877205125634440" datatype="html">
