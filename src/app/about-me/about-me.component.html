@@ -5,7 +5,7 @@
       <!-- <small class="job-title" i18n>I'm a DevOps Engineer</small> -->
       <small class="job-looking" i18n>Looking for a DevOps position</small>
       <small class="job-availability" i18n
-        >Based in France, available from January 2026</small
+        >Based in France, available now.</small
       >
       <div class="btns">
         <a
@@ -66,8 +66,10 @@
       </a>
     </div>
     <div class="profile">
-      <img class="open" src="assets/job.png" alt="Jonathan Assamagan" />
-      <img src="assets/jonathan.jpg" alt="Jonathan Assamagan" />
+      @if(isOpenToWork) {
+        <img class="open" src="assets/job.png" alt="Jonathan Assamagan" />
+      }
+        <img src="assets/jonathan.jpg" alt="Jonathan Assamagan" />
     </div>
   </section>
   <section id="about" class="about">
@@ -78,14 +80,13 @@
         <br />
         <br />
         I start having interest in DevOps, cloud and automation since 2023 -
-        where I had my first intership around Kubernetes in a DevOps team. I've
+        where I had my first internship around Kubernetes in a DevOps team. I've
         been learning and working on cloud and automation since then, and I'm
         still learning and improving.
         <br />
         <br />
         <span class="about-looking"
-          >I'm currently looking for a DevOps position, and I'm available from
-          January 2026.</span
+          >I'm currently looking for a DevOps position, and I'm available now.</span
         >
       </p>
     </div>
