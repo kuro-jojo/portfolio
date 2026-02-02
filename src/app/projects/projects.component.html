@@ -10,7 +10,7 @@
         <img src="assets/jenkins.svg" alt="Jenkins" class="logo" />
         <img src="assets/openshift.svg" alt="OpenShift" class="logo" />
         <img src="assets/aws.svg" alt="AWS" class="logo" />
-    </div>
+      </div>
     </div>
     <div>
       <h2>Backend</h2>
@@ -55,38 +55,41 @@
 
   <div class="projects">
     @for (project of projects | slice:currentPage * pageSize:(currentPage + 1) *
-    pageSize; track $index) {
-    <div class="p-card">
-      <div class="card-img">
-        <img src="{{ project.image }}" alt="{{ project.name }} image" />
-      </div>
-      <div class="card-content">
-        <h2 class="card-header">{{ project.name }}</h2>
-        <p>{{ project.description }}</p>
-        <div class="languages">
-          @for (lang of project.stack; track $index) {
-          <span class="lang">{{ lang }}</span>
-          }
+      pageSize; track $index) {
+      <div class="p-card">
+        <div class="card-img">
+          <img src="{{ project.image }}" alt="{{ project.name }} image" />
         </div>
+        <div class="card-content">
+          <h2 class="card-header">{{ project.name }}</h2>
+          <p>{{ project.description }}</p>
+          <div class="languages">
+            @for (lang of project.stack; track $index) {
+              <span class="lang">{{ lang }}</span>
+            }
+          </div>
+        </div>
+        <div class="card-code">
+          <a href="{{ project.url }}" target="_blank"
+            ><img src="assets/github.svg" alt="GitHub" />View Code</a
+            >
+            @if (project.demo) {
+              <a href="{{ project.demo }}" target="_blank"
+                ><img src="assets/site.svg" alt="Site" />View demo</a
+                >
+              }
+            </div>
+          </div>
+        }
       </div>
-      <div class="card-code">
-        <a href="{{ project.url }}" target="_blank"
-          ><img src="assets/github.svg" alt="GitHub" />View Code</a
-        >
-        <a href="{{ project.demo }}" target="_blank" *ngIf="project.demo"
-          ><img src="assets/site.svg" alt="Site" />View demo</a
-        >
-      </div>
-    </div>
-    }
-  </div>
-  <mat-paginator
-    *ngIf="showPaginator"
-    class="paginator"
-    [length]="length"
-    [pageSizeOptions]="getPageSizeOptions()"
-    [showFirstLastButtons]="showFirstLastButtons"
-    [pageSize]="pageSize"
-    (page)="onPageChange($event)"
-  ></mat-paginator>
-</section>
+      @if (showPaginator) {
+        <mat-paginator
+          class="paginator"
+          [length]="length"
+          [pageSizeOptions]="getPageSizeOptions()"
+          [showFirstLastButtons]="showFirstLastButtons"
+          [pageSize]="pageSize"
+          (page)="onPageChange($event)"
+        ></mat-paginator>
+      }
+    </section>
