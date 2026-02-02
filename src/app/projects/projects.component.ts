@@ -1,13 +1,12 @@
 import { Component, HostListener, ElementRef, ViewChild } from '@angular/core';
 import { Project, ProjectService } from '../project.service';
-import { HttpClientModule } from '@angular/common/http';
+import {} from '@angular/common/http';
 import { MatPaginatorModule, PageEvent } from '@angular/material/paginator';
 import { CommonModule } from '@angular/common';
 
 @Component({
     selector: 'app-projects',
-    standalone: true,
-    imports: [HttpClientModule, MatPaginatorModule, CommonModule],
+    imports: [MatPaginatorModule, CommonModule],
     providers: [ProjectService],
     templateUrl: './projects.component.html',
     styleUrl: './projects.component.css'
@@ -24,7 +23,7 @@ export class ProjectsComponent {
     constructor(
         private projectService: ProjectService,
     ) {
-        window.addEventListener('resize', () => this.showPaginatorBasedOnWidth());
+
     }
 
     ngOnInit() {
@@ -41,13 +40,9 @@ export class ProjectsComponent {
         });
     }
 
-    ngOnDestroy() {
-        window.removeEventListener('resize', () => this.updatePageSize());
-    }
-
     @HostListener('window:resize', ['$event'])
-    showPaginatorBasedOnWidth() {
-        const width = window.innerWidth;
+    showPaginatorBasedOnWidth(event?: Event) {
+        const width = event ? (event.target as Window).innerWidth : window.innerWidth;
         if (width >= 500) {
             this.showPaginator = true;
             this.showFirstLastButtons = true;

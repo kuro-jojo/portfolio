@@ -3,10 +3,9 @@ import { Component, HostListener } from '@angular/core';
 
 @Component({
     selector: 'app-navbar',
-    standalone: true,
     imports: [NgClass],
     templateUrl: './navbar.component.html',
-    styleUrl: './navbar.component.css',
+    styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
     currentLang: string = window.location.pathname.split('/')[2] || '';
@@ -20,8 +19,9 @@ export class NavbarComponent {
         this.currentLang = language;
     }
 
-    @HostListener('window:resize', ['$event.target.innerWidth'])
-    onResize(width: number) {
+    @HostListener('window:resize', ['$event'])
+    onResize(event: Event) {
+        const width = (event.target as Window).innerWidth;
         const nav = document.getElementById('links');
         if (nav) {
             nav.style.transform = (width < 960 && !this.isBurgetActive) ? "translateX(-100%)" : "none";
