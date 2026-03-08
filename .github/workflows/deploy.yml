@@ -16,7 +16,7 @@ jobs:
           node-version: ">=20.19"
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps # because of @angular/fire not upgraded to angular 21 yet
 
       - name: Build fr version
         run: npm run build -- --configuration=fr
