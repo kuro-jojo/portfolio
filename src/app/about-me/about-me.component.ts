@@ -3,10 +3,11 @@ import { SafePipe } from '../safe.pipe';
 import { MatIconModule } from '@angular/material/icon';
 import { environment } from '../../environments/environment';
 import { HttpClient } from '@angular/common/http';
+import { DefaultImgDirective } from '../default-image.directives';
 
 @Component({
     selector: 'app-about-me',
-    imports: [SafePipe, MatIconModule],
+    imports: [SafePipe, MatIconModule, DefaultImgDirective],
     templateUrl: './about-me.component.html',
     styleUrl: './about-me.component.css'
 })
