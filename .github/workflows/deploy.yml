@@ -16,16 +16,16 @@ jobs:
           node-version: ">=20.19"
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps # because of @angular/fire not upgraded to angular 21 yet
+        run: npm ci --legacy-peer-deps # because of @angular/fire not upgraded to angular 21 yet
 
       - name: Build fr version
-        run: npm run build -- --configuration=fr
+        run: npm run build -- --configuration=production,fr
 
       - name: Move fr build files to temporary directory
         run: mv dist/portfolio/fr/browser/fr /tmp/fr
 
       - name: Build en version
-        run: npm run build -- --configuration=en
+        run: npm run build -- --configuration=production,en
 
       - name: Move en build files to temporary directory
         run: mv dist/portfolio/en/browser /tmp/en
