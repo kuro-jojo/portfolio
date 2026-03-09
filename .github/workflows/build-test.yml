@@ -16,10 +16,10 @@ jobs:
           node-version: ">=20.19"
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: npm ci --legacy-peer-deps
 
       - name: Build fr version
-        run: npm run build -- --configuration=fr
+        run: npm run build -- --configuration=production,fr
 
       - name: Build en version
-        run: npm run build -- --configuration=en
+        run: npm run build -- --configuration=production,en
